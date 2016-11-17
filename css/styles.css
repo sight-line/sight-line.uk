@@ -8,7 +8,8 @@ h1 {
     font-size: 70px;
     color: #FFE400;
 }
-a, a:hover {
+a,
+a:hover {
     color: #FFFFFF;
 }
 .app-download {
@@ -27,6 +28,7 @@ a, a:hover {
     text-align: center;
 }
 .title {
+    padding: 0;
     margin-bottom: 40px;
     font-family: 'transport_dmedium';
 }
@@ -38,7 +40,7 @@ a, a:hover {
     padding-top: 25px;
 }
 .inner {
-  padding-top: 80px;
+    padding-top: 80px;
 }
 .content .description {
     font-size: 28px;
@@ -64,29 +66,73 @@ a, a:hover {
     color: #FF0000;
     text-decoration: underline;
 }
-.app-icon {
+.app-icon img {
     vertical-align: text-top;
     width: 100px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .content .text { padding-top: 25px; }
-  .content h1 { font-size: 36px; }
-  .content .description { font-size: 20px; line-height: 30px; }
-  .app-icon { width: 60px; }
+    .content .text {
+        padding-top: 25px;
+    }
+    .content h1 {
+        font-size: 36px;
+    }
+    .content .description {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .app-icon img {
+        width: 60px;
+    }
+    .frame img {
+        width: 160px;
+    }
+    .title {
+        margin-bottom: 0;
+    }
 }
 @media (max-width: 767px) {
-  .inner { padding: 10px 0; }
-  .content .text { padding-top: 10px; text-align: center; }
-  .content h1 { font-size: 36px; }
-  .content .description { font-size: 20px; line-height: 30px; }
-  .content .sub-description { margin: 0; }
-  .links { margin-top: 10px; }
-  .frame img { width: 160px; }
-  .title { margin-bottom: 0; }
-  .app-icon { width: 50px; }
+    .inner {
+        padding: 10px 0;
+    }
+    .content .text {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .content h1 {
+        font-size: 36px;
+    }
+    .content .description {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .content .sub-description {
+        margin: 0;
+    }
+    .links {
+        margin-top: 10px;
+    }
+    .frame img {
+        width: 160px;
+    }
+    .title {
+        margin-bottom: 0;
+    }
+    .app-icon img {
+        width: 50px;
+    }
 }
-@media (max-device-width : 568px) {
-  .content h1 { font-size: 24px; }
-  .frame img { width: 120px; }
-  .content .description { margin: 0; font-size: 14px; line-height: 20px; font-weight: 300; }
+@media (max-device-width: 568px) {
+    .content h1 {
+        font-size: 24px;
+    }
+    .frame img {
+        width: 120px;
+    }
+    .content .description {
+        margin: 0;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
 }
