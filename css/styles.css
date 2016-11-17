@@ -71,14 +71,14 @@ a, a:hover {
 @media (min-width: 768px) and (max-width: 991px) {
   .content .text { padding-top: 25px; }
   .content h1 { font-size: 36px; }
-  .content .description { margin: 5px; font-size: 20px; line-height: 30px; }
+  .content .description { font-size: 20px; line-height: 30px; }
   .app-icon { width: 60px; }
 }
 @media (max-width: 767px) {
   .inner { padding: 10px 0; }
   .content .text { padding-top: 10px; text-align: center; }
   .content h1 { font-size: 36px; }
-  .content .description { margin: 5px; font-size: 20px; line-height: 30px; }
+  .content .description { font-size: 20px; line-height: 30px; }
   .content .sub-description { margin: 0; }
   .links { margin-top: 10px; }
   .frame img { width: 160px; }
