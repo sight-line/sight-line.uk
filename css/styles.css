@@ -1,5 +1,6 @@
 body {
     background: #000000;
+    font-family: 'transport_dmedium';
 }
 html {
     background: #000000;
@@ -7,10 +8,6 @@ html {
 h1 {
     font-size: 70px;
     color: #FFE400;
-}
-a,
-a:hover {
-    color: #FFFFFF;
 }
 .app-download {
     padding-top: 10px;
@@ -30,7 +27,6 @@ a:hover {
 .title {
     padding: 0;
     margin-bottom: 40px;
-    font-family: 'transport_dmedium';
 }
 .frame img {
     padding-top: 10px;
@@ -65,6 +61,9 @@ a:hover {
 .links a {
     color: #FF0000;
     text-decoration: underline;
+}
+.links a:hover {
+    color: #FFE400;
 }
 .app-icon img {
     vertical-align: text-top;
