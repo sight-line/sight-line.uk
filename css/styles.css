@@ -99,8 +99,8 @@ h1 {
         padding: 10px 0;
     }
     .content .text {
-        padding-top: 10px;
         text-align: center;
+        padding-top: 10px;
     }
     .content h1 {
         font-size: 36px;
@@ -108,9 +108,11 @@ h1 {
     .content .description {
         font-size: 20px;
         line-height: 30px;
+        text-align: left;
     }
     .content .sub-description {
         margin: 0;
+        text-align: left;
     }
     .links {
         margin-top: 10px;
