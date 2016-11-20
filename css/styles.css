@@ -16,27 +16,25 @@ h1 {
     margin: 0 auto;
     text-align: left;
     color: #FFFFFF;
-    position: fixed;
     left: 0;
     right: 0;
-    z-index: 9999;
 }
 .content .frame {
     text-align: center;
 }
 .title {
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .frame img {
     padding-top: 10px;
     width: 200px;
 }
 .content .text {
-    padding-top: 25px;
+    padding-top: 10px;
 }
 .inner {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 .content .description {
     font-size: 28px;
@@ -45,10 +43,16 @@ h1 {
 }
 .content .sub-description {
     margin: 8px 0 8px 0;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 14px;
     font-weight: lighter;
     color: #FFFFFF;
+}
+.content .sub-description a {
+    color: #FF0000;
+    text-decoration: underline;
+}
+.content .sub-description a:hover {
+    color: #FFE400;
 }
 .links {
     margin-top: 20px;
